@@ -11,27 +11,6 @@ test('creates a Manager object', () => {
 
 });
 
-test('checks that the name from Manager object has been sucessfully chosen', () => {
-    const manager = new Manager("Logan", 2,"logandufek@gmail.com", 5)
-
-    expect(manager.getName()).toEqual(manager.name);
-
-});
-
-test('checks that the ID from Manager object has been sucessfully chosen', () => {
-    const manager = new Manager("Logan", 2,"logandufek@gmail.com", 5)
-
-    expect(manager.getID()).toEqual(manager.id);
-
-});
-
-test('checks that the Email from Manager object has been sucessfully chosen', () => {
-    const manager = new Manager("Logan", 2,"logandufek@gmail.com", 5)
-
-    expect(manager.getEmail()).toEqual(manager.email);
-
-});
-
 test('checks that the ID from Manager object has been sucessfully chosen', () => {
     const manager = new Manager("Logan", 2,"logandufek@gmail.com", 5)
 
