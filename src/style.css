@@ -1,0 +1,35 @@
+* {
+    margin: 0
+}
+
+.header {
+    background-color: rgb(61, 200, 154);
+    font-size: 70px;
+    color: rgb(240, 240, 240);
+}
+
+.title {
+    background-color: dodgerblue;
+    color: floralwhite;
+}
+
+.list-group-item {
+    padding-top: 15px;
+    padding-bottom: 0;
+    font-weight: 600;
+}
+
+.card {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.card:hover {
+    filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.452));
+    transition: 0.2s
+}
+
+.row {
+    --bs-gutter-x: 0;
+    padding-left: 30px;
+}
