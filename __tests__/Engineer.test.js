@@ -1,6 +1,7 @@
-
+//Required file for the test
 const Engineer = require('../lib/Engineer.js')
 
+//Tests to validate object construction and functions within
 test('creates an Enginner object', () => {
     const engineer = new Engineer("Logan",2,"logandufek@gmail.com", "LoganDufek")
 

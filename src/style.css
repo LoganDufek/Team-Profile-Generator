@@ -1,18 +1,34 @@
 * {
     margin: 0
 }
-
+/* Header Styling */
 .header {
-    background-color: rgb(61, 200, 154);
-    font-size: 70px;
+    background-color: rgb(86, 61, 200);
+    font-size: 40px;
     color: rgb(240, 240, 240);
+    text-align: center;
+}
+.header p {
+    padding: 20px 0px;
 }
 
-.title {
+/* Manager tile styling */
+.manager-title {
+    background-color: rgb(44, 23, 230);
+    color: floralwhite;
+}
+/* Engineer tile styling */
+.engineer-title {
     background-color: dodgerblue;
     color: floralwhite;
 }
+/* Intern tile styling */
+.intern-title {
+    background-color: rgb(18, 177, 110);
+    color: floralwhite;
+}
 
+/* Styling for the overall group */
 .list-group-item {
     padding-top: 15px;
     padding-bottom: 0;
@@ -24,12 +40,15 @@
     margin-left: 20px;
 }
 
+.row {
+    --bs-gutter-x: 0;
+    padding-right: 30px;
+    justify-content: center;
+}
+
+/* Psudo-class for added flair */
 .card:hover {
     filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.452));
     transition: 0.2s
 }
 
-.row {
-    --bs-gutter-x: 0;
-    padding-left: 30px;
-}

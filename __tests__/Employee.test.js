@@ -1,6 +1,7 @@
+//Required file for the test
 const Employee = require('../lib/Employee.js')
 
-
+//Tests to validate object construction and functions within
 test('creates an employee object', () => {
     const employee = new Employee("Logan",2,"logandufek@gmail.com")
 

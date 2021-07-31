@@ -1,6 +1,7 @@
-
+//Required file for the test
 const Manager = require('../lib/Manager.js')
 
+//Tests to validate object construction and functions within
 test('creates a Manager object', () => {
     const manager = new Manager("Logan", 2,"logandufek@gmail.com", 5)
 

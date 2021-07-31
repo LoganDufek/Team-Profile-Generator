@@ -1,5 +1,7 @@
+//Required file for the test
 const Intern = require('../lib/Intern.js')
 
+//Tests to validate object construction and functions within
 test('creates an Intern object', () => {
     const intern = new Intern("Logan",2,"logandufek@gmail.com", "Case Western")
 
